@@ -14,10 +14,10 @@ matieres = [
 
 @app.route("/")
 def hello():
-    s = 'Tes grades:\n'
+    s = 'Tes grades:<br />'
     for matiere in matieres:
         grade = random.choice(grades)
-        s += '%s : %s\n' % (matiere, grade)
+        s += '%s : %s<br />' % (matiere, grade)
     return s
 
 if __name__ == "__main__":
