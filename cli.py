@@ -8,7 +8,8 @@ default_subjects = [
     'B1 - Mathematiques',
     'B1 - Igraph',
     'B1 - Expression Ecrite',
-    'B1 - Systeme Unix'
+    'B1 - Systeme Unix',
+    'B1&2 - Culture Informatique',
 ]
 
 if __name__ == "__main__":
